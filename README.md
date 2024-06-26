@@ -61,6 +61,18 @@ In order to ensure that the Laravel community is welcoming to all, please review
 
 If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
 
+# TDD
+
+Aplicación de Test Driven Development en un sistema CRUD de laravel.
+
+"php": "8.2",
+"laravel/framework": "11.0"
+
+## Uso
+
+Para inicializar proyecto "php artisan serve" y para inicializar vite "npm run dev".
+Para Test "php artisan test" y si se necesita filtrar alguno usar --filter, ejemplo: "php artisan test --filter test_home"
+
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
